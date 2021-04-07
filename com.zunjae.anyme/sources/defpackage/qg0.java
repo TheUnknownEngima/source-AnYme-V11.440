@@ -1,0 +1,43 @@
+package defpackage;
+
+/* renamed from: qg0  reason: default package */
+public enum qg0 implements fl0 {
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_UNKNOWN(0),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_USER_DISMISSED(1),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_USER_STOPPED(2),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_RECEIVER_OFFLINE(3),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_SENDER_BECAME_PRIMARY(4),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_RECEIVER_PRIVATE_MODE(5),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_USER_DISABLE_FROM_SETTINGS(6),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_CONNECTION_TO_GMSCORE_FAILED(7),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_CONNECTION_TO_RECEIVER_FAILED(8),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_NEW_SERVICE_STARTED(9),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_INVALID_APPLICATION(10),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_APPLICATION_DISCONNECTED(11),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_NO_MEDIA_SESSION(12),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_SERVICE_STOPPED(13),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_SCEEN_OFF(14);
+    
+    private static final il0<qg0> zzahh = null;
+    private final int value;
+
+    static {
+        zzahh = new pg0();
+    }
+
+    private qg0(int i) {
+        this.value = i;
+    }
+
+    public static hl0 zzgk() {
+        return sg0.a;
+    }
+
+    public final String toString() {
+        return "<" + qg0.class.getName() + '@' + Integer.toHexString(System.identityHashCode(this)) + " number=" + this.value + " name=" + name() + '>';
+    }
+
+    public final int zzgj() {
+        return this.value;
+    }
+}

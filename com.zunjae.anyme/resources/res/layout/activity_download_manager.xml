@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/custom_background" app:subtitleTextColor="@android:color/white" app:title="Download Manager" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle"/>
+    <com.google.android.material.tabs.TabLayout android:id="@+id/tabLayout" android:background="@color/custom_background" android:layout_width="match_parent" android:layout_height="40dp" app:tabIndicatorColor="@android:color/white" app:tabIndicatorHeight="6dp" app:tabMode="1" app:tabSelectedTextColor="@android:color/white" app:tabTextColor="#90ffffff"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:padding="4dp" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/RecyclerViewWithPadding"/>
+</LinearLayout>

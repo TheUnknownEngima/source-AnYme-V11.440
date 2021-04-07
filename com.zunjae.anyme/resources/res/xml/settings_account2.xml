@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="MyAnimeList" android:key="preference_category_account_mal">
+        <Preference android:title="Relogin on MyAnimeList" android:key="@string/preference_key_relogin"/>
+        <Preference android:title="Change Username" android:key="@string/preference_key_change_username"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Kanon" android:key="preference_category_account_kanon">
+        <Preference android:title="Login with Kanon" android:key="@string/preference_key_kanon_login" android:summary="With Kanon you&apos;ll get the most out of AnYme for free. Sign up only take a few seconds"/>
+        <Preference android:title="Setup Kanon Token" android:key="@string/preference_key_manually_set_kanon_token"/>
+        <Preference android:title="Migrate to AnYme Alpha" android:key="@string/preference_key_migrate_to_alpha"/>
+    </PreferenceCategory>
+</PreferenceScreen>

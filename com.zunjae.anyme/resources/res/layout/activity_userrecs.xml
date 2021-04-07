@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@drawable/gradient_background" app:subtitleTextColor="@android:color/white" app:title="Recommendations" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle"/>
+    <TextView android:gravity="center" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You can improve the recommendations by applying a filter"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/RecyclerViewWithPadding"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="3dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="3dp" app:cardElevation="5dp" app:cardPreventCornerOverlap="false">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/viewGroupNoAnimeHere" android:padding="3dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?android:attr/selectableItemBackground">
+        <TextView android:textSize="19sp" android:textStyle="normal|bold|italic" android:gravity="center" android:layout_gravity="center" android:id="@+id/scoreNumber" android:padding="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="10"/>
+        <TextView android:textSize="17sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/scoreDescription" android:padding="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp" android:text="Fantastic"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

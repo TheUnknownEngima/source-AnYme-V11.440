@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cardViewContainer" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="3dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="5dp" app:cardElevation="4dp" app:cardPreventCornerOverlap="false">
+    <LinearLayout android:orientation="horizontal" android:padding="7dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/castImage" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="5dp"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/castAppName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="App Name" android:layout_marginStart="10dp"/>
+            <TextView android:textSize="14sp" android:textStyle="italic" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/castAppNameInstalled" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="App Is Installed" android:layout_marginStart="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

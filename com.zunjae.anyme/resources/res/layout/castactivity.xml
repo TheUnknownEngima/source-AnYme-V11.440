@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/coordinator" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/custom_background" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:subtitleTextColor="@android:color/white" app:title="Profile" app:titleTextColor="@android:color/white"/>
+        <androidx.cardview.widget.CardView android:id="@+id/showInfoContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="14dp" android:foreground="?android:attr/selectableItemBackground">
+            <TextView android:id="@+id/showInfoText" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hello World"/>
+        </androidx.cardview.widget.CardView>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/pauseButton" android:layout_width="100dp" android:layout_height="100dp"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/stopButton" android:layout_width="100dp" android:layout_height="100dp"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

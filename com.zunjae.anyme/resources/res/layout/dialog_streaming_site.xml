@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/custom_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="Select Your Preferred Host" style="@style/DialogTitle"/>
+    <androidx.cardview.widget.CardView android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="5dp">
+        <CheckBox android:textSize="16sp" android:id="@+id/rememberStreamingApp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="Remember For All Anime"/>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.chip.ChipGroup android:id="@+id/chipGroupHostType" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:paddingStart="12dp" app:chipSpacing="6dp" app:singleSelection="true"/>
+    <Button android:textColor="@color/md_white_1000" android:layout_gravity="center" android:id="@+id/syncSources" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="10dp" android:text="Click here to Sync sources"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:padding="7dp" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

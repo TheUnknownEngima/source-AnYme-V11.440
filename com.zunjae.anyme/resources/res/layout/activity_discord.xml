@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/gradient_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="40sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Join the AnYme chat server!"/>
+        <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:padding="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="- Talk about your favorite games, movies or share some of your memes with other AnYme users\10\10- Request new App features or ask for help\10\10- Test out BETA versions of AnYme with new features!"/>
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@+id/joinButton" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_margin="7dp" app:fb_defaultColor="#f4fffe" app:fb_focusColor="@color/button_focus_color" app:fb_radius="30dp" app:fb_text="JOIN" app:fb_textColor="@android:color/black"/>
+    </LinearLayout>
+</FrameLayout>

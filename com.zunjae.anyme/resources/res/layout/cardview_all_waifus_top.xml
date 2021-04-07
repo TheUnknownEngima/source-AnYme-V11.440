@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cardViewContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="5dp" app:cardElevation="0dp" app:cardPreventCornerOverlap="false">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/characterImage" android:layout_width="match_parent" android:layout_height="@dimen/fragment_discovery_anime_image_height" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+            <View android:id="@+id/gradientOverlay" android:background="@drawable/black_to_trans" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50dp"/>
+            <com.github.ivbaranov.mfb.MaterialFavoriteButton android:layout_gravity="end" android:id="@+id/favoriteButton" android:layout_width="50dp" android:layout_height="50dp" app:mfb_animate_favorite="false" app:mfb_animate_unfavorite="false" app:mfb_color="1" app:mfb_padding="5" app:mfb_size="37" app:mfb_type="1"/>
+        </FrameLayout>
+        <TextView android:textSize="12sp" android:id="@+id/characterName" android:padding="7dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BEEP BOOP BEEP BOOP BEEP" android:lines="2" android:minLines="2" android:singleLine="false"/>
+        <com.mikepenz.iconics.view.IconicsTextView android:textSize="13sp" android:textStyle="bold" android:id="@+id/waifuStars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text=" {faw-heart} "/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@drawable/gradient_background" app:subtitleTextColor="@android:color/white" app:title="Seasonal Anime" app:titleTextColor="@android:color/white" style="@style/ToolbarStyle"/>
+    <androidx.cardview.widget.CardView android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="5dp">
+        <LinearLayout android:orientation="horizontal" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Spinner android:id="@+id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:popupBackground="@color/custom_background" android:spinnerMode="dropdown"/>
+            <CheckBox android:textSize="16sp" android:id="@+id/hideAlreadyAddedCheckBox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Hide Already Added"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/seasonalRecyclerView" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/RecyclerViewWithPadding"/>
+</LinearLayout>

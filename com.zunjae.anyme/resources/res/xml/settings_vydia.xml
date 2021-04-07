@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:title="Use Vydia" android:key="@string/preference_key_use_vydia" android:summary="Vydia is a built-in video player made for AnYme" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="Brightness/Volume Gestures" android:key="@string/preference_vydia_enable_vertical_gesture" android:summary="Change the brightness or volume by swiping up or down on the screen" android:dependency="@string/preference_key_use_vydia" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="Remember Video Progress" android:key="@string/preference_vydia_remember_progress" android:summary="Remember where you left off when watching an episode" android:dependency="@string/preference_key_use_vydia" android:defaultValue="true"/>
+    <ListPreference android:entries="@array/vydia_gesture_sensitivity_entries" android:title="Gestures Sensitivity" android:key="@string/preference_vydia_enable_vertical_gesture_sensitivity" android:dependency="@string/preference_key_use_vydia" android:defaultValue="1" android:entryValues="@array/vydia_gesture_sensitivity_values" app:useSimpleSummaryProvider="true"/>
+</PreferenceScreen>

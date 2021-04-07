@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/gradient_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="40sp" android:textStyle="bold" android:gravity="center" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="New App Update Available!"/>
+        <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center" android:id="@+id/sD" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center" android:id="@+id/diff" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Current Version: X | New Version: Y"/>
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@+id/ub" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_margin="7dp" app:fb_defaultColor="#ffffff" app:fb_focusColor="@color/button_focus_color" app:fb_radius="30dp" app:fb_text="Update" app:fb_textColor="@android:color/black"/>
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@+id/rC" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="15dp" app:fb_defaultColor="#ffffff" app:fb_focusColor="@color/button_focus_color" app:fb_radius="30dp" app:fb_text="Read Changelog" app:fb_textColor="@android:color/black"/>
+    </LinearLayout>
+</FrameLayout>

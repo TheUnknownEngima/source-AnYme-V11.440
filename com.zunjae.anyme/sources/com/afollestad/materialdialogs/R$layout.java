@@ -1,0 +1,71 @@
+package com.afollestad.materialdialogs;
+
+public final class R$layout {
+    public static final int abc_action_bar_title_item = 2131492864;
+    public static final int abc_action_bar_up_container = 2131492865;
+    public static final int abc_action_menu_item_layout = 2131492866;
+    public static final int abc_action_menu_layout = 2131492867;
+    public static final int abc_action_mode_bar = 2131492868;
+    public static final int abc_action_mode_close_item_material = 2131492869;
+    public static final int abc_activity_chooser_view = 2131492870;
+    public static final int abc_activity_chooser_view_list_item = 2131492871;
+    public static final int abc_alert_dialog_button_bar_material = 2131492872;
+    public static final int abc_alert_dialog_material = 2131492873;
+    public static final int abc_alert_dialog_title_material = 2131492874;
+    public static final int abc_dialog_title_material = 2131492876;
+    public static final int abc_expanded_menu_layout = 2131492877;
+    public static final int abc_list_menu_item_checkbox = 2131492878;
+    public static final int abc_list_menu_item_icon = 2131492879;
+    public static final int abc_list_menu_item_layout = 2131492880;
+    public static final int abc_list_menu_item_radio = 2131492881;
+    public static final int abc_popup_menu_header_item_layout = 2131492882;
+    public static final int abc_popup_menu_item_layout = 2131492883;
+    public static final int abc_screen_content_include = 2131492884;
+    public static final int abc_screen_simple = 2131492885;
+    public static final int abc_screen_simple_overlay_action_mode = 2131492886;
+    public static final int abc_screen_toolbar = 2131492887;
+    public static final int abc_search_dropdown_item_icons_2line = 2131492888;
+    public static final int abc_search_view = 2131492889;
+    public static final int abc_select_dialog_material = 2131492890;
+    public static final int md_dialog_basic = 2131493093;
+    public static final int md_dialog_basic_check = 2131493094;
+    public static final int md_dialog_custom = 2131493095;
+    public static final int md_dialog_input = 2131493096;
+    public static final int md_dialog_input_check = 2131493097;
+    public static final int md_dialog_list = 2131493098;
+    public static final int md_dialog_list_check = 2131493099;
+    public static final int md_dialog_progress = 2131493100;
+    public static final int md_dialog_progress_indeterminate = 2131493101;
+    public static final int md_dialog_progress_indeterminate_horizontal = 2131493102;
+    public static final int md_listitem = 2131493103;
+    public static final int md_listitem_multichoice = 2131493104;
+    public static final int md_listitem_singlechoice = 2131493105;
+    public static final int md_stub_actionbuttons = 2131493106;
+    public static final int md_stub_progress = 2131493107;
+    public static final int md_stub_progress_indeterminate = 2131493108;
+    public static final int md_stub_progress_indeterminate_horizontal = 2131493109;
+    public static final int md_stub_titleframe = 2131493110;
+    public static final int md_stub_titleframe_lesspadding = 2131493111;
+    public static final int notification_action = 2131493155;
+    public static final int notification_action_tombstone = 2131493156;
+    public static final int notification_media_action = 2131493157;
+    public static final int notification_media_cancel_action = 2131493158;
+    public static final int notification_template_big_media = 2131493159;
+    public static final int notification_template_big_media_custom = 2131493160;
+    public static final int notification_template_big_media_narrow = 2131493161;
+    public static final int notification_template_big_media_narrow_custom = 2131493162;
+    public static final int notification_template_custom_big = 2131493163;
+    public static final int notification_template_icon_group = 2131493164;
+    public static final int notification_template_lines_media = 2131493165;
+    public static final int notification_template_media = 2131493166;
+    public static final int notification_template_media_custom = 2131493167;
+    public static final int notification_template_part_chronometer = 2131493168;
+    public static final int notification_template_part_time = 2131493169;
+    public static final int select_dialog_item_material = 2131493198;
+    public static final int select_dialog_multichoice_material = 2131493199;
+    public static final int select_dialog_singlechoice_material = 2131493200;
+    public static final int support_simple_spinner_dropdown_item = 2131493206;
+
+    private R$layout() {
+    }
+}

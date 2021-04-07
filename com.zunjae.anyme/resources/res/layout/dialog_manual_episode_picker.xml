@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/custom_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="@string/episode_picker_title" style="@style/DialogTitle"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/episodePickerManuallyViewGroup" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/myanimelist_unknown_series_count_message"/>
+        <EditText android:id="@+id/episodePickerManuallyEnter" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="4" android:maxLength="4" android:inputType="number"/>
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@+id/episodePickerSaveButton" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/setup_login_button" app:fb_defaultColor="@color/colorPrimary" app:fb_focusColor="@color/button_focus_color" app:fb_radius="3dp" app:fb_text="SET" app:fb_textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>

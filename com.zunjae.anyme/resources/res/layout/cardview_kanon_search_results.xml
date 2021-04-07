@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cardViewContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="4dp" app:cardElevation="3dp" app:cardPreventCornerOverlap="false">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/seriesImage" android:layout_width="match_parent" android:layout_height="@dimen/animeCoverImageSize" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+            <TextView android:textSize="12sp" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/seriesScore" android:background="@drawable/textview_user_score" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="4.57"/>
+        </FrameLayout>
+        <TextView android:textSize="12sp" android:id="@+id/seriesTitle" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BEEP BOOP BEEP BOOP BEEP" android:lines="2" android:minLines="2" android:singleLine="false"/>
+        <TextView android:textSize="11sp" android:id="@+id/seriesDescription" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TV (25 Eps)" android:singleLine="false"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

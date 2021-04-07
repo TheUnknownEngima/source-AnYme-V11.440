@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cardViewContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="4dp" app:cardElevation="3dp" app:cardPreventCornerOverlap="false">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/seriesImage" android:layout_width="match_parent" android:layout_height="170dp" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+            <TextView android:textSize="12sp" android:textColor="@color/md_white_1000" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/myStatus" android:background="@drawable/textview_user_score" android:padding="5dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3dp" android:text="WATCHING (7)"/>
+            <com.mikepenz.iconics.view.IconicsTextView android:textSize="12sp" android:textColor="@color/md_white_1000" android:gravity="end" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/seriesScore" android:background="@drawable/textview_user_score" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="3.53"/>
+        </FrameLayout>
+        <TextView android:textSize="12sp" android:id="@+id/seriesTitle" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BEEP BOOP BEEP BOOP BEEP" android:lines="2" android:minLines="2" android:singleLine="false"/>
+        <TextView android:textSize="10sp" android:id="@+id/myWatchingProgress" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Episode 4/12" android:lines="1" android:singleLine="false"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

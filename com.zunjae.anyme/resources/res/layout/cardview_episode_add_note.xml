@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cardViewContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="5dp" app:cardElevation="5dp" app:cardPreventCornerOverlap="false">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="15sp" android:textStyle="bold" android:id="@+id/episodeNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Episode 1" android:layout_weight="1"/>
+            <TextView android:id="@+id/episodeNote" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:hint="Tap to add a note"/>
+            <TextView android:textSize="12sp" android:textStyle="italic" android:id="@+id/episodeNoteCreated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="January 10" android:layout_weight="1" android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <ImageButton android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/overflowIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/actionOverflowButtonStyle"/>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

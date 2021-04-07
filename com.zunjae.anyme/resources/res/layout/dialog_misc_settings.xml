@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/title" android:text="Misc. Settings For This Anime" style="@style/DialogTitle"/>
+        <androidx.cardview.widget.CardView android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="7dp" app:elevation="5dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:background="@color/colorPrimary" android:text="Comments" style="@style/DialogTitle"/>
+                <EditText android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:hint="Enter your comments here" android:maxLines="3" android:inputType="textMultiLine"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="7dp" app:elevation="5dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:background="@color/colorPrimary" android:text="Sync Incorrect Episode Count" style="@style/DialogTitle"/>
+                <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="16sp" android:textStyle="normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add X episodes so that the streaming site can automatically click on the correct episode."/>
+                    <EditText android:id="@+id/userInputAnimeSync" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="0" android:maxLength="4" android:inputType="number"/>
+                    <TextView android:textSize="12sp" android:textStyle="italic" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Example: MAL thinks the Anime starts at episode 1 but 9Anime starts counting from Episode 13. In this case you enter 12"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@+id/saveAndUpdate" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="10dp" android:layout_marginRight="7dp" android:layout_marginBottom="7dp" app:fb_defaultColor="@color/colorPrimary" app:fb_focusColor="@color/button_focus_color" app:fb_fontIconResource="" app:fb_fontIconSize="16dp" app:fb_iconPaddingRight="10dp" app:fb_iconPosition="1" app:fb_radius="3dp" app:fb_text="SAVE" app:fb_textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

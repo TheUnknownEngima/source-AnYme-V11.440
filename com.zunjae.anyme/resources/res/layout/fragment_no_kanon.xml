@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="17sp" android:textStyle="normal" android:gravity="center" android:id="@+id/message" android:padding="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="This feature requires you to be logged in on Kanon"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/buttonGetStarted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Get Started" style="@style/AnYmeButton"/>
+    </LinearLayout>
+</LinearLayout>

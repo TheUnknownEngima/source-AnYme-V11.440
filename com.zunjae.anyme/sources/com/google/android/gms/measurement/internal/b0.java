@@ -1,0 +1,17 @@
+package com.google.android.gms.measurement.internal;
+
+final class b0 implements Runnable {
+    private final /* synthetic */ String e;
+    private final /* synthetic */ long f;
+    private final /* synthetic */ a g;
+
+    b0(a aVar, String str, long j) {
+        this.g = aVar;
+        this.e = str;
+        this.f = j;
+    }
+
+    public final void run() {
+        this.g.F(this.e, this.f);
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cardview_lr_padding" android:layout_marginRight="@dimen/cardview_lr_padding" android:layout_marginBottom="7dp" app:cardCornerRadius="4dp" app:cardPreventCornerOverlap="false" app:elevation="3dp">
+    <LinearLayout android:orientation="vertical" android:padding="12dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/summaryContainer" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="21sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="Synopsis"/>
+            <TextView android:textSize="14sp" android:id="@+id/animeSynopsisMessage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3"/>
+            <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@+id/readMoreSummary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="6dp" android:text="@string/read_all"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

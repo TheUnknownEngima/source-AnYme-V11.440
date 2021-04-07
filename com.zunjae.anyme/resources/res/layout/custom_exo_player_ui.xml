@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/rootContainerRL" android:background="#c9000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:subtitleTextColor="@android:color/white" app:title="Shows" app:titleTextColor="@android:color/white"/>
+    <FrameLayout android:id="@+id/showHideContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottomBar" android:layout_below="@+id/toolbar">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progressBarVideoLoading" android:layout_width="75dp" android:layout_height="75dp" android:indeterminate="true"/>
+        <Button android:textSize="14sp" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/showInfoButton" android:background="@null" android:layout_width="wrap_content" android:layout_height="42dp" android:layout_marginBottom="10dp" android:text="Show Info" android:layout_marginStart="10dp" style="@style/AnYmeOutlinedButton"/>
+        <Button android:textSize="13sp" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/exoSkipIntro" android:background="@null" android:layout_width="wrap_content" android:layout_height="42dp" android:layout_marginBottom="10dp" android:text="Skip Intro" android:layout_marginEnd="10dp" style="@style/AnYmeOutlinedButton"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="100dp" android:layout_marginRight="100dp" android:layout_above="@+id/bottomBar" android:layout_below="@+id/toolbar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottomBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.flexbox.FlexboxLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:justifyContent="3">
+            <ImageButton android:id="@+id/exoPlaybackSpeed" android:background="@null" android:layout_width="@dimen/exo_media_button_width" android:layout_height="@dimen/exo_media_button_height" android:src="@drawable/baseline_speed_white_24"/>
+            <ImageButton android:id="@+id/exoNull" android:background="@null" android:layout_width="@dimen/exo_media_button_width" android:layout_height="@dimen/exo_media_button_height"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@+id/exo_rew" style="@style/ExoMediaButton.Rewind"/>
+                <ImageButton android:id="@+id/exo_play" style="@style/ExoMediaButton.Play"/>
+                <ImageButton android:id="@+id/exo_pause" style="@style/ExoMediaButton.Pause"/>
+                <ImageButton android:id="@+id/exo_ffwd" style="@style/ExoMediaButton.FastForward"/>
+            </LinearLayout>
+            <ImageButton android:id="@+id/exoCreateSnapshot" android:background="@null" android:layout_width="@dimen/exo_media_button_width" android:layout_height="@dimen/exo_media_button_height" android:src="@drawable/baseline_add_comment_white_24"/>
+            <ImageButton android:id="@+id/exoResizeMode" android:background="@null" android:layout_width="@dimen/exo_media_button_width" android:layout_height="@dimen/exo_media_button_height" android:src="@drawable/ic_resize_mode"/>
+        </com.google.android.flexbox.FlexboxLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:layout_marginRight="10dp">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@+id/exo_position" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+            <View android:id="@+id/exo_progress_placeholder" android:layout_width="0dp" android:layout_height="26dp" android:layout_weight="1"/>
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@+id/exo_duration" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

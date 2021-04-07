@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <Preference android:title="Clear Image Cache" android:key="@string/preference_key_clear_cache"/>
+    <Preference android:title="Clear Browser Data" android:key="@string/preference_key_clear_browser_data"/>
+    <Preference android:title="Open Android Settings" android:key="@string/preference_key_open_android_settings"/>
+    <Preference android:title="Optimize Database" android:key="@string/preference_key_optimize_database" android:summary="This will clear the database for faster app startup and screen loading. Do not click this often.\10\10This may take a few seconds to complete"/>
+</PreferenceScreen>

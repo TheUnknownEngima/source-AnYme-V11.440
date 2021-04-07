@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/userStatusContainer" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" app:justifyContent="4">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/statusContainer" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+        <ImageView android:layout_width="@dimen/size_icon_action" android:layout_height="@dimen/size_icon_action" android:src="@drawable/baseline_movie_white_24dp" android:scaleType="centerCrop"/>
+        <TextView android:gravity="center" android:id="@+id/animeStatusValue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Watching"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/progressContainer" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+        <ImageView android:layout_width="@dimen/size_icon_action" android:layout_height="@dimen/size_icon_action" android:src="@drawable/baseline_visibility_white_24dp" android:scaleType="centerCrop"/>
+        <TextView android:gravity="center" android:id="@+id/animeProgressValue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12/25"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/scoreContainer" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+        <ImageView android:layout_width="@dimen/size_icon_action" android:layout_height="@dimen/size_icon_action" android:src="@drawable/baseline_thumb_up_white_24dp" android:scaleType="centerCrop"/>
+        <TextView android:gravity="center" android:id="@+id/animeScoreValue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0/10"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/animeActionAddToBookmark" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+        <ImageView android:layout_width="@dimen/size_icon_action" android:layout_height="@dimen/size_icon_action" android:src="@drawable/outline_bookmarks_white_48dp" android:scaleType="centerCrop"/>
+        <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bookmark"/>
+    </LinearLayout>
+</com.google.android.flexbox.FlexboxLayout>

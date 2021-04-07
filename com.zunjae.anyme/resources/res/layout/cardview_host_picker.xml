@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cardViewContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="4dp" app:cardElevation="5dp" app:cardPreventCornerOverlap="false">
+    <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="22sp" android:textStyle="bold" android:textColor="@color/theme_NightBlue_accent" android:ellipsize="end" android:id="@+id/streamingSiteName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Name Of The Site"/>
+        <TextView android:textSize="14sp" android:id="@+id/note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Some description goes here"/>
+        <TextView android:textSize="12sp" android:id="@+id/percentageUsage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Popularity: ?"/>
+        <com.google.android.material.chip.ChipGroup android:id="@+id/chipGroupTags" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" app:chipSpacing="2dp" app:chipSpacingHorizontal="2dp" app:chipSpacingVertical="2dp" app:singleSelection="false"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/theme_NightBlue_accent_3" android:ellipsize="end" android:id="@+id/streamingSiteTags" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tags: thot, haris, is, cute"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

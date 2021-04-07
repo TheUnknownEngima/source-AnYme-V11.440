@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ListPreference android:entries="@array/settings_download_download_type" android:title="Download Method" android:key="key_download_type" android:defaultValue="0" android:entryValues="@array/settings_download_download_type_values" app:useSimpleSummaryProvider="true"/>
+    <CheckBoxPreference android:title="Download over Mobile Data" android:key="key_download_over_mobile_data" android:defaultValue="false" app:useSimpleSummaryProvider="true"/>
+    <CheckBoxPreference android:title="Alternative Downloader" android:key="@string/preference_key_alternative_downloader" android:summary="Save shows in separate folders. Example: downloaded videos from Shuffle go to\10/AnYmeVids/Shuffle/010.mp4" android:defaultValue="true"/>
+</PreferenceScreen>

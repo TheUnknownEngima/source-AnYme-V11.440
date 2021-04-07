@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/swipeRefreshLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:id="@+id/nestedScrollView" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Scrollbar">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/bar_update_anime"/>
+            <com.google.android.material.button.MaterialButton android:textColor="@android:color/white" android:id="@+id/addToPTW" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" android:text="ADD TO PROFILE" app:icon="@drawable/add_icon" app:iconTint="@android:color/white" app:strokeColor="@color/theme_NightBlue_accent" app:strokeWidth="3dp" style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"/>
+            <include layout="@layout/better_anime_actions"/>
+            <include layout="@layout/layout_calendar_next_release"/>
+            <include layout="@layout/better_anime_additionalinfo"/>
+            <include layout="@layout/layout_anime_genres"/>
+            <include layout="@layout/better_anime_summary"/>
+            <include layout="@layout/score_distribution"/>
+            <include layout="@layout/anime_characters"/>
+            <include layout="@layout/related_anime"/>
+            <include layout="@layout/recommended_anime"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,28 @@
+package com.google.android.exoplayer2;
+
+public final class R$layout {
+    public static final int exo_list_divider = 2131493019;
+    public static final int exo_playback_control_view = 2131493020;
+    public static final int exo_player_control_view = 2131493021;
+    public static final int exo_player_view = 2131493022;
+    public static final int exo_simple_player_view = 2131493023;
+    public static final int exo_track_selection_dialog = 2131493024;
+    public static final int notification_action = 2131493155;
+    public static final int notification_action_tombstone = 2131493156;
+    public static final int notification_media_action = 2131493157;
+    public static final int notification_media_cancel_action = 2131493158;
+    public static final int notification_template_big_media = 2131493159;
+    public static final int notification_template_big_media_custom = 2131493160;
+    public static final int notification_template_big_media_narrow = 2131493161;
+    public static final int notification_template_big_media_narrow_custom = 2131493162;
+    public static final int notification_template_custom_big = 2131493163;
+    public static final int notification_template_icon_group = 2131493164;
+    public static final int notification_template_lines_media = 2131493165;
+    public static final int notification_template_media = 2131493166;
+    public static final int notification_template_media_custom = 2131493167;
+    public static final int notification_template_part_chronometer = 2131493168;
+    public static final int notification_template_part_time = 2131493169;
+
+    private R$layout() {
+    }
+}

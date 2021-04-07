@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cardViewContainerNextEpisode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cardview_lr_padding" android:layout_marginRight="@dimen/cardview_lr_padding" android:layout_marginBottom="7dp" app:cardCornerRadius="4dp" app:cardPreventCornerOverlap="false" app:elevation="3dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/viewGroupSubscribe" android:padding="7dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="center" android:id="@+id/textNextRelease" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="EP 6 will release in 2d 4H"/>
+        <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_gravity="center" android:id="@+id/get_notified" android:padding="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Get Notified"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
