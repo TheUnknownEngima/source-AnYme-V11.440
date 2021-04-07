@@ -1,3 +1,6 @@
+Source code is from the version 11.440 of the app and if you compile it the app can still be used for watching anime. 
+Don't expect any new updates tho, the developer has dropped this feature because of legal resons. 
+
 # AnYme
 Android App that can sync with MyAnimeList **[ FREE AND NO ADS! ]**
 
