@@ -1,6 +1,6 @@
 Source code is from the version 11.440 of the app and if you build it the app can still be used for watching anime. 
-Don't expect any new updates tho, the developer has dropped this feature because of legal resons. 
-The second source code is from the NSFW patch that adds support for some hentai sites, enjoi ( ͡° ͜ʖ ͡°).
+Don't expect any new updates tho, the developer has dropped this feature because of legal resons.
+The second source code is from the NSFW patch that adds support for some hentai sites, enjoy ( ͡° ͜ʖ ͡°).
  
 # AnYme
 Android App that can sync with MyAnimeList **[ FREE AND NO ADS! ]**
